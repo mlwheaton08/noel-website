@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1601333057443-bc2b6e684bc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: 0 -240px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    font-size: 1.5em;
+    border-bottom: 1px solid #a8a8a8;
+}
+
+ul:first-child {
+    float: left;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.6em;
+    text-shadow: 3px 3px 2px rgb(219, 219, 219);
+    border-left: 1px solid rgb(219, 219, 219);
+    border-top: 1px solid rgb(219, 219, 219);
+    margin: -5px 0 0 30px;
+    padding: 5px 0 0 10px;
+    transition: text-shadow 0.3s, border-left 0.3s, border-top 0.3s;
+}
+
+.home:hover {
+    text-shadow: 3px 3px 5px rgb(192, 192, 192);
+    border-left: 1px solid rgb(117, 117, 117);
+    border-top: 1px solid rgb(117, 117, 117);
+}
+
+.resourcesAndContact {
+    margin-right: 50px;
+}
+
+.resources {
+    margin-right: 5px;
+    padding: 7px 15px;
+    border: 1px solid white;
+    transition: border-left 0.3s, border-top 0.3s;
+}
+
+.resources:hover {
+    border-left: 1px solid rgb(185, 185, 185);
+    border-top: 1px solid rgb(185, 185, 185);
+}
+
+.contact {
+    background-color: #ff9d5c;
+    padding: 7px 15px;
+    transition: color 0.3s;
+}
+
+.contact:hover {
+    color: #ffffff;
+}
+
+h3 {
+    text-align: left;
+    font-size: 65px;
+    margin: 600px 0 0 20px;
+    padding: 0;
+    color: white;
+    text-shadow: 0 0 4px black;;
+}
+
+.gradient {
+    margin-top: 300px;
+    height: 50px;
+    background-image: linear-gradient(#ffffff00, #ffffff7e, #ffffff);
+}
+
+.subHero {
+    height: 100vh;
+    background-image: linear-gradient(#ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #e2fde0);
+}
